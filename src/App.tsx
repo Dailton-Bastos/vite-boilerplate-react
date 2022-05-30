@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { Button } from '~/components/Button';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -15,6 +17,8 @@ const App = () => {
           <button type="button" onClick={() => setCount((prev) => prev + 1)}>
             count is: {count}
           </button>
+
+          <Button />
         </p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
