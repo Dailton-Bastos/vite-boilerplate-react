@@ -41,6 +41,8 @@ module.exports = {
     },
   },
   rules: {
+    'no-console': 'warn',
+    'no-unused-vars': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
@@ -62,6 +64,12 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-shadow': ['error'],
     '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        ignoreRestSiblings: true,
+      },
+    ],
     'import/prefer-default-export': 'off',
     'import/extensions': [
       'error',
