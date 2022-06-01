@@ -19,7 +19,7 @@ const App = () => {
             count is: {count}
           </button>
 
-          <Button />
+          <Button variant="secondary">Hello Vite + React!</Button>
         </p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
