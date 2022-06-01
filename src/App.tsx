@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { Button } from '~/components/Button';
+import { Heading } from '~/components/Heading';
 
 import logo from './logo.svg';
 import './App.css';
@@ -12,7 +13,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <Heading>Hello Vite + React!</Heading>
         <p>
           <button type="button" onClick={() => setCount((prev) => prev + 1)}>
             count is: {count}
